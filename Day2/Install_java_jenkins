@@ -35,7 +35,7 @@ https://34.93.221.196:8080/
 
 If its not running then check firewall policies settings:
 
-Allow http & Allow all after click on details. 
+Allow http & Allow all after click on details. Also, allow all port. 
 
 Run the below command again
 
