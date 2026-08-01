@@ -12,3 +12,25 @@ Step1:
 
 add new item --> configure --> add build steps--> build now
 
+--- add the below code ---
+
+pipeline {
+  agent any
+    stages {
+        stage('Git clone') {
+            steps {
+            git branch: 'main', url: 'https://github.com/jagdishkk1989/javasession.git'
+            }
+        }
+        stage('Build'){
+            steps{
+            sh 'javac helloworld.java'
+            }
+        }
+        stage('Run'){
+            steps{
+            sh 'java helloworld'
+            }
+        }
+    }
+}
