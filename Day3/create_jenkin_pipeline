@@ -1,0 +1,14 @@
+Run jenkin by entering the URL 
+
+http://34.93.254.246:8080/
+
+Copy the commmand and put cat <suggested command> 
+
+enter password and add admin user name and password. 
+
+Next 
+
+Step1: 
+
+add new item --> configure --> add build steps--> build now
+
